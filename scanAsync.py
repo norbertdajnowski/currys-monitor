@@ -32,13 +32,13 @@ def discord_webhook(product_item):
     #All params at https://discordapp.com/developers/docs/resources/channel#embed-object
 
     data = {
-        "username" : "Crystal's Sweat Shop",
-        "avatar_url" : "https://i.kym-cdn.com/entries/icons/facebook/000/034/065/terio.jpg"
+        "username" : "Crystal's",
+        "avatar_url" : ""
     }
     if product_item == 'initial':
         data["embeds"] = [
             {
-                "title" : "Sweat Shop Monitor Launched"
+                "title" : "Monitor Launched"
             }
         ]
     else:
